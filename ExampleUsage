@@ -1,0 +1,12 @@
+package net.hyperaura.client.test;
+
+public class ExampleUsage {
+    
+    public boolean isClicked = false;
+    
+    public void doSomething() {
+        if (isClicked == true) {
+            LinkOpener.openLink("https://www.youtube.com");
+        }
+    }
+}
